@@ -1,0 +1,9 @@
+2025-09-02 17:20:42,548 - __main__ - INFO - Loading training data...
+2025-09-02 17:20:42,575 - __main__ - INFO - Loaded 10 samples from data/video_metadata.csv
+2025-09-02 17:20:42,576 - utils.video_preprocessing - INFO - Video preprocessor initialized
+2025-09-02 17:23:57,463 - models.vision_model - INFO - Vision model initialized with ResNet50 and OpenCV face detection
+2025-09-02 17:23:57,468 - __main__ - INFO - Starting training on cpu...
+2025-09-02 17:23:57,470 - __main__ - INFO - Training samples: 10
+2025-09-02 17:23:57,470 - __main__ - INFO - Sequence length: 15, Batch size: 2
+2025-09-02 17:23:57,472 - __main__ - WARNING - Video file sample_video_9.mp4 not found. Generating synthetic data.
+2025-09-02 17:23:57,505 - __main__ - WARNING - Video file sample_video_1.mp4 not found. Generating synthetic data.

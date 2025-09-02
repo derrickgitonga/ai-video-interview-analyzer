@@ -1,0 +1,11 @@
+video_path,engagement_score,confidence_score,attention_score
+sample_video_1.mp4,0.85,0.78,0.82
+sample_video_2.mp4,0.92,0.88,0.90
+sample_video_3.mp4,0.65,0.70,0.68
+sample_video_4.mp4,0.78,0.82,0.75
+sample_video_5.mp4,0.88,0.85,0.87
+sample_video_6.mp4,0.72,0.68,0.74
+sample_video_7.mp4,0.95,0.90,0.92
+sample_video_8.mp4,0.60,0.65,0.62
+sample_video_9.mp4,0.82,0.79,0.84
+sample_video_10.mp4,0.75,0.72,0.78

@@ -1,0 +1,79 @@
+2025-09-02 18:47:14,200 - root - INFO - NLTK tokenizer loaded successfully
+2025-09-02 18:47:14,201 - utils.video_preprocessing - INFO - Video preprocessor initialized
+2025-09-02 18:47:14,208 - inference - ERROR - Model loading failed: Weights only load failed. In PyTorch 2.6, we changed the default value of the `weights_only` argument in `torch.load` from `False` to `True`. Re-running `torch.load` with `weights_only` set to `False` will likely succeed, but it can result in arbitrary code execution. Do it only if you got the file from a trusted source.
+Please file an issue with the following so that we can make `weights_only=True` compatible with your use case: WeightsUnpickler error: Unsupported operand 255
+
+Check the documentation of torch.load to learn more about types accepted by default with weights_only https://pytorch.org/docs/stable/generated/torch.load.html.. Using simple analysis.
+2025-09-02 18:47:14,211 - inference - INFO - Interview analyzer initialized
+2025-09-02 18:47:14,211 - inference - INFO - Analyzing candidate: Candidate
+2025-09-02 18:47:14,216 - root - ERROR - Text cleaning failed: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - 'C:\\Users\\Administrator/nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python39\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python39\\share\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python39\\lib\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2025-09-02 18:47:14,227 - root - ERROR - Text cleaning failed: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - 'C:\\Users\\Administrator/nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python39\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python39\\share\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python39\\lib\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2025-09-02 18:47:14,239 - root - ERROR - Text cleaning failed: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - 'C:\\Users\\Administrator/nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python39\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python39\\share\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python39\\lib\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2025-09-02 18:47:14,244 - utils.video_preprocessing - WARNING - Video file data/sample_video_1.mp4 not found
+2025-09-02 18:47:14,245 - inference - INFO - Analysis complete for Candidate. Score: 0.28

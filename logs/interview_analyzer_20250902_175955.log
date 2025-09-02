@@ -1,0 +1,45 @@
+2025-09-02 17:59:59,650 - models.nlp_model - INFO - NLP model initialized with BERT base
+2025-09-02 18:00:02,229 - models.nlp_model - INFO - Model loaded from models/nlp_model.pth
+2025-09-02 18:00:03,101 - models.vision_model - INFO - Vision model initialized. Classifier input dim: 514
+2025-09-02 18:00:03,140 - models.vision_model - INFO - Vision model loaded from models/vision_model.pth
+2025-09-02 18:00:03,147 - utils.text_preprocessing - INFO - Text preprocessor initialized with NLTK
+2025-09-02 18:00:03,148 - utils.video_preprocessing - INFO - Video preprocessor initialized
+2025-09-02 18:00:03,152 - inference - INFO - Interview analyzer initialized
+2025-09-02 18:10:44,699 - models.nlp_model - INFO - NLP model initialized with BERT base
+2025-09-02 18:10:46,975 - models.nlp_model - INFO - Model loaded from models/nlp_model.pth
+2025-09-02 18:10:48,278 - models.vision_model - INFO - Vision model initialized. Classifier input dim: 514
+2025-09-02 18:10:48,320 - models.vision_model - INFO - Vision model loaded from models/vision_model.pth
+2025-09-02 18:10:48,323 - utils.text_preprocessing - INFO - Text preprocessor initialized with NLTK
+2025-09-02 18:10:48,323 - utils.video_preprocessing - INFO - Video preprocessor initialized
+2025-09-02 18:10:48,332 - inference - INFO - Interview analyzer initialized
+2025-09-02 18:10:55,991 - models.nlp_model - INFO - NLP model initialized with BERT base
+2025-09-02 18:10:58,223 - models.nlp_model - INFO - Model loaded from models/nlp_model.pth
+2025-09-02 18:10:59,572 - models.vision_model - INFO - Vision model initialized. Classifier input dim: 514
+2025-09-02 18:10:59,617 - models.vision_model - INFO - Vision model loaded from models/vision_model.pth
+2025-09-02 18:10:59,620 - utils.text_preprocessing - INFO - Text preprocessor initialized with NLTK
+2025-09-02 18:10:59,621 - utils.video_preprocessing - INFO - Video preprocessor initialized
+2025-09-02 18:10:59,623 - inference - INFO - Interview analyzer initialized
+2025-09-02 18:10:59,747 - inference - INFO - Analyzing candidate: John Doe
+2025-09-02 18:11:02,044 - utils.text_preprocessing - ERROR - Text cleaning failed: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - 'C:\\Users\\Administrator/nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python39\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python39\\share\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python39\\lib\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+

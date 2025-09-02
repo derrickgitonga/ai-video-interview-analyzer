@@ -1,0 +1,11 @@
+response,clarity_score,sentiment_label,keyword_1,keyword_2,keyword_3,keyword_4,keyword_5,keyword_6,keyword_7,keyword_8,keyword_9,keyword_10
+"I have extensive experience in machine learning and deep learning frameworks like PyTorch and TensorFlow. I've worked on several projects involving natural language processing and computer vision applications.",0.85,2,1,1,1,1,1,0,0,0,0,0
+"I'm passionate about AI and have been working with Python for data analysis and model development. I enjoy solving complex problems and learning new technologies.",0.78,2,1,1,0,0,0,0,0,0,0,0
+"I think the project requirements are challenging but I'm not sure if I have all the necessary skills. I'll need more training in some areas.",0.65,1,0,0,0,0,0,0,0,0,0,0
+"I don't really like working with machine learning frameworks. They're too complicated and I prefer simpler approaches to problem solving.",0.55,0,0,0,0,0,0,0,0,0,0,0
+"I have strong programming skills in Python and experience with cloud platforms like AWS. I've deployed several machine learning models in production environments.",0.82,2,1,1,0,1,0,0,0,0,0,0
+"While I have some experience with AI, I'm more comfortable with traditional software development. The machine learning aspects might be difficult for me.",0.68,1,0,0,0,0,0,0,0,0,0,0
+"I'm excited about the opportunity to work on cutting-edge AI projects. My background in computer science and experience with MLOps practices would be valuable for this role.",0.88,2,1,1,1,0,1,0,0,0,0,0
+"I've used PyTorch for research projects and TensorFlow for production deployments. I'm comfortable with both frameworks and understand their strengths and weaknesses.",0.84,2,1,1,0,0,0,0,0,0,0,0
+"The job requirements seem reasonable but I'm concerned about the workload. I prefer a balanced approach to work-life integration.",0.72,1,0,0,0,0,0,0,0,0,0,0
+"I have no experience with any of the technologies mentioned in the job description. This might not be the right fit for me.",0.45,0,0,0,0,0,0,0,0,0,0,0

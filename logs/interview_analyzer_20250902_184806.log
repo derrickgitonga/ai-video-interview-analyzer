@@ -1,0 +1,140 @@
+2025-09-02 18:48:07,405 - root - INFO - NLTK tokenizer loaded successfully
+2025-09-02 18:48:07,406 - utils.video_preprocessing - INFO - Video preprocessor initialized
+2025-09-02 18:48:07,415 - inference - ERROR - Model loading failed: Weights only load failed. In PyTorch 2.6, we changed the default value of the `weights_only` argument in `torch.load` from `False` to `True`. Re-running `torch.load` with `weights_only` set to `False` will likely succeed, but it can result in arbitrary code execution. Do it only if you got the file from a trusted source.
+Please file an issue with the following so that we can make `weights_only=True` compatible with your use case: WeightsUnpickler error: Unsupported operand 255
+
+Check the documentation of torch.load to learn more about types accepted by default with weights_only https://pytorch.org/docs/stable/generated/torch.load.html.. Using simple analysis.
+2025-09-02 18:48:07,417 - inference - INFO - Interview analyzer initialized
+2025-09-02 18:48:20,205 - root - INFO - NLTK tokenizer loaded successfully
+2025-09-02 18:48:20,207 - utils.video_preprocessing - INFO - Video preprocessor initialized
+2025-09-02 18:48:20,209 - inference - ERROR - Model loading failed: Weights only load failed. In PyTorch 2.6, we changed the default value of the `weights_only` argument in `torch.load` from `False` to `True`. Re-running `torch.load` with `weights_only` set to `False` will likely succeed, but it can result in arbitrary code execution. Do it only if you got the file from a trusted source.
+Please file an issue with the following so that we can make `weights_only=True` compatible with your use case: WeightsUnpickler error: Unsupported operand 255
+
+Check the documentation of torch.load to learn more about types accepted by default with weights_only https://pytorch.org/docs/stable/generated/torch.load.html.. Using simple analysis.
+2025-09-02 18:48:20,212 - inference - INFO - Interview analyzer initialized
+2025-09-02 18:48:22,969 - root - INFO - NLTK tokenizer loaded successfully
+2025-09-02 18:48:22,970 - utils.video_preprocessing - INFO - Video preprocessor initialized
+2025-09-02 18:48:22,972 - inference - ERROR - Model loading failed: Weights only load failed. In PyTorch 2.6, we changed the default value of the `weights_only` argument in `torch.load` from `False` to `True`. Re-running `torch.load` with `weights_only` set to `False` will likely succeed, but it can result in arbitrary code execution. Do it only if you got the file from a trusted source.
+Please file an issue with the following so that we can make `weights_only=True` compatible with your use case: WeightsUnpickler error: Unsupported operand 255
+
+Check the documentation of torch.load to learn more about types accepted by default with weights_only https://pytorch.org/docs/stable/generated/torch.load.html.. Using simple analysis.
+2025-09-02 18:48:22,978 - inference - INFO - Interview analyzer initialized
+2025-09-02 18:48:23,123 - inference - INFO - Analyzing candidate: John Doe
+2025-09-02 18:48:23,128 - root - ERROR - Text cleaning failed: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - 'C:\\Users\\Administrator/nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python39\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python39\\share\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python39\\lib\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2025-09-02 18:48:23,141 - root - ERROR - Text cleaning failed: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - 'C:\\Users\\Administrator/nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python39\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python39\\share\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python39\\lib\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2025-09-02 18:49:13,030 - utils.video_preprocessing - INFO - Extracted 20 frames from C:\Users\ADMINI~1\AppData\Local\Temp\tmp2te9ukik.mp4
+2025-09-02 18:49:13,042 - inference - INFO - Analysis complete for John Doe. Score: 0.37
+2025-09-02 18:51:56,385 - root - INFO - NLTK tokenizer loaded successfully
+2025-09-02 18:51:56,386 - utils.video_preprocessing - INFO - Video preprocessor initialized
+2025-09-02 18:51:56,388 - inference - ERROR - Model loading failed: Weights only load failed. In PyTorch 2.6, we changed the default value of the `weights_only` argument in `torch.load` from `False` to `True`. Re-running `torch.load` with `weights_only` set to `False` will likely succeed, but it can result in arbitrary code execution. Do it only if you got the file from a trusted source.
+Please file an issue with the following so that we can make `weights_only=True` compatible with your use case: WeightsUnpickler error: Unsupported operand 255
+
+Check the documentation of torch.load to learn more about types accepted by default with weights_only https://pytorch.org/docs/stable/generated/torch.load.html.. Using simple analysis.
+2025-09-02 18:51:56,420 - inference - INFO - Interview analyzer initialized
+2025-09-02 18:52:54,436 - root - INFO - NLTK tokenizer loaded successfully
+2025-09-02 18:52:54,438 - utils.video_preprocessing - INFO - Video preprocessor initialized
+2025-09-02 18:52:54,441 - inference - ERROR - Model loading failed: Weights only load failed. In PyTorch 2.6, we changed the default value of the `weights_only` argument in `torch.load` from `False` to `True`. Re-running `torch.load` with `weights_only` set to `False` will likely succeed, but it can result in arbitrary code execution. Do it only if you got the file from a trusted source.
+Please file an issue with the following so that we can make `weights_only=True` compatible with your use case: WeightsUnpickler error: Unsupported operand 255
+
+Check the documentation of torch.load to learn more about types accepted by default with weights_only https://pytorch.org/docs/stable/generated/torch.load.html.. Using simple analysis.
+2025-09-02 18:52:54,444 - inference - INFO - Interview analyzer initialized
+2025-09-02 18:52:54,590 - inference - INFO - Analyzing candidate: John Doe
+2025-09-02 18:52:54,595 - root - ERROR - Text cleaning failed: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - 'C:\\Users\\Administrator/nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python39\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python39\\share\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python39\\lib\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2025-09-02 18:52:54,609 - root - ERROR - Text cleaning failed: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - 'C:\\Users\\Administrator/nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python39\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python39\\share\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python39\\lib\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2025-09-02 18:53:29,649 - root - INFO - NLTK tokenizer loaded successfully
+2025-09-02 18:53:29,707 - utils.video_preprocessing - INFO - Video preprocessor initialized
+2025-09-02 18:53:29,733 - inference - ERROR - Model loading failed: Weights only load failed. In PyTorch 2.6, we changed the default value of the `weights_only` argument in `torch.load` from `False` to `True`. Re-running `torch.load` with `weights_only` set to `False` will likely succeed, but it can result in arbitrary code execution. Do it only if you got the file from a trusted source.
+Please file an issue with the following so that we can make `weights_only=True` compatible with your use case: WeightsUnpickler error: Unsupported operand 255
+
+Check the documentation of torch.load to learn more about types accepted by default with weights_only https://pytorch.org/docs/stable/generated/torch.load.html.. Using simple analysis.
+2025-09-02 18:53:29,751 - inference - INFO - Interview analyzer initialized
+2025-09-02 18:53:50,456 - utils.video_preprocessing - INFO - Extracted 20 frames from C:\Users\ADMINI~1\AppData\Local\Temp\tmp0tcr9m4i.mp4
+2025-09-02 18:53:50,464 - inference - INFO - Analysis complete for John Doe. Score: 0.37

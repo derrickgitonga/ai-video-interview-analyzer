@@ -1,0 +1,258 @@
+2025-09-02 17:04:55,817 - __main__ - INFO - Loading training data...
+2025-09-02 17:04:55,826 - __main__ - INFO - Loaded 10 samples from data/sample_interviews.csv
+2025-09-02 17:04:55,831 - utils.text_preprocessing - INFO - Text preprocessor initialized with NLTK
+2025-09-02 17:04:55,835 - utils.text_preprocessing - ERROR - Text cleaning failed: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - 'C:\\Users\\Administrator/nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python39\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python39\\share\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python39\\lib\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2025-09-02 17:04:55,850 - utils.text_preprocessing - ERROR - Text cleaning failed: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - 'C:\\Users\\Administrator/nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python39\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python39\\share\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python39\\lib\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2025-09-02 17:04:55,864 - utils.text_preprocessing - ERROR - Text cleaning failed: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - 'C:\\Users\\Administrator/nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python39\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python39\\share\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python39\\lib\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2025-09-02 17:04:55,876 - utils.text_preprocessing - ERROR - Text cleaning failed: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - 'C:\\Users\\Administrator/nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python39\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python39\\share\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python39\\lib\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2025-09-02 17:04:55,884 - utils.text_preprocessing - ERROR - Text cleaning failed: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - 'C:\\Users\\Administrator/nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python39\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python39\\share\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python39\\lib\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2025-09-02 17:04:55,896 - utils.text_preprocessing - ERROR - Text cleaning failed: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - 'C:\\Users\\Administrator/nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python39\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python39\\share\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python39\\lib\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2025-09-02 17:04:55,908 - utils.text_preprocessing - ERROR - Text cleaning failed: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - 'C:\\Users\\Administrator/nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python39\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python39\\share\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python39\\lib\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2025-09-02 17:04:55,915 - utils.text_preprocessing - ERROR - Text cleaning failed: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - 'C:\\Users\\Administrator/nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python39\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python39\\share\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python39\\lib\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2025-09-02 17:04:55,928 - utils.text_preprocessing - ERROR - Text cleaning failed: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - 'C:\\Users\\Administrator/nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python39\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python39\\share\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python39\\lib\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2025-09-02 17:04:55,934 - utils.text_preprocessing - ERROR - Text cleaning failed: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - 'C:\\Users\\Administrator/nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python39\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python39\\share\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python39\\lib\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2025-09-02 17:04:58,910 - models.nlp_model - INFO - NLP model initialized with BERT base
+2025-09-02 17:04:58,915 - __main__ - INFO - Starting training on cpu...
+2025-09-02 17:04:58,916 - __main__ - INFO - Training samples: 8, Validation samples: 2
+2025-09-02 17:05:02,232 - __main__ - INFO - Epoch 1, Batch 0: Loss=2.4550
+2025-09-02 17:05:02,755 - __main__ - INFO - Epoch 1/5:
+2025-09-02 17:05:02,756 - __main__ - INFO -   Train Loss: 2.4550 (Clarity: 0.6882, Sentiment: 1.0780, Keyword: 0.6887)
+2025-09-02 17:05:02,756 - __main__ - INFO -   Val Loss: 2.4635 (Clarity: 0.6979, Sentiment: 1.1058, Keyword: 0.6598)
+2025-09-02 17:05:05,827 - __main__ - INFO - Epoch 2, Batch 0: Loss=2.4726
+2025-09-02 17:05:06,355 - __main__ - INFO - Epoch 2/5:
+2025-09-02 17:05:06,356 - __main__ - INFO -   Train Loss: 2.4726 (Clarity: 0.6984, Sentiment: 1.0866, Keyword: 0.6876)
+2025-09-02 17:05:06,356 - __main__ - INFO -   Val Loss: 2.4469 (Clarity: 0.6895, Sentiment: 1.1025, Keyword: 0.6549)
+2025-09-02 17:05:09,348 - __main__ - INFO - Epoch 3, Batch 0: Loss=2.4618
+2025-09-02 17:05:09,866 - __main__ - INFO - Epoch 3/5:
+2025-09-02 17:05:09,866 - __main__ - INFO -   Train Loss: 2.4618 (Clarity: 0.6910, Sentiment: 1.0904, Keyword: 0.6804)
+2025-09-02 17:05:09,867 - __main__ - INFO -   Val Loss: 2.4307 (Clarity: 0.6812, Sentiment: 1.0992, Keyword: 0.6503)
+2025-09-02 17:05:12,847 - __main__ - INFO - Epoch 4, Batch 0: Loss=2.4342
+2025-09-02 17:05:13,414 - __main__ - INFO - Epoch 4/5:
+2025-09-02 17:05:13,415 - __main__ - INFO -   Train Loss: 2.4342 (Clarity: 0.6687, Sentiment: 1.0914, Keyword: 0.6740)
+2025-09-02 17:05:13,415 - __main__ - INFO -   Val Loss: 2.4157 (Clarity: 0.6735, Sentiment: 1.0965, Keyword: 0.6457)
+2025-09-02 17:05:16,511 - __main__ - INFO - Epoch 5, Batch 0: Loss=2.4092
+2025-09-02 17:05:17,057 - __main__ - INFO - Epoch 5/5:
+2025-09-02 17:05:17,058 - __main__ - INFO -   Train Loss: 2.4092 (Clarity: 0.6616, Sentiment: 1.0806, Keyword: 0.6670)
+2025-09-02 17:05:17,058 - __main__ - INFO -   Val Loss: 2.4011 (Clarity: 0.6663, Sentiment: 1.0937, Keyword: 0.6412)
+2025-09-02 17:05:20,758 - models.nlp_model - INFO - Model saved to models/nlp_model.pth
+2025-09-02 17:05:20,758 - __main__ - INFO - Training completed. Model saved to models/nlp_model.pth
