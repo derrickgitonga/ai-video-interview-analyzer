@@ -138,3 +138,17 @@ Check the documentation of torch.load to learn more about types accepted by defa
 2025-09-02 18:53:29,751 - inference - INFO - Interview analyzer initialized
 2025-09-02 18:53:50,456 - utils.video_preprocessing - INFO - Extracted 20 frames from C:\Users\ADMINI~1\AppData\Local\Temp\tmp0tcr9m4i.mp4
 2025-09-02 18:53:50,464 - inference - INFO - Analysis complete for John Doe. Score: 0.37
+2025-09-02 18:56:48,031 - root - INFO - NLTK tokenizer loaded successfully
+2025-09-02 18:56:48,032 - utils.video_preprocessing - INFO - Video preprocessor initialized
+2025-09-02 18:56:48,041 - inference - ERROR - Model loading failed: Weights only load failed. In PyTorch 2.6, we changed the default value of the `weights_only` argument in `torch.load` from `False` to `True`. Re-running `torch.load` with `weights_only` set to `False` will likely succeed, but it can result in arbitrary code execution. Do it only if you got the file from a trusted source.
+Please file an issue with the following so that we can make `weights_only=True` compatible with your use case: WeightsUnpickler error: Unsupported operand 255
+
+Check the documentation of torch.load to learn more about types accepted by default with weights_only https://pytorch.org/docs/stable/generated/torch.load.html.. Using simple analysis.
+2025-09-02 18:56:48,048 - inference - INFO - Interview analyzer initialized
+2025-09-02 18:56:57,126 - root - INFO - NLTK tokenizer loaded successfully
+2025-09-02 18:56:57,127 - utils.video_preprocessing - INFO - Video preprocessor initialized
+2025-09-02 18:56:57,128 - inference - ERROR - Model loading failed: Weights only load failed. In PyTorch 2.6, we changed the default value of the `weights_only` argument in `torch.load` from `False` to `True`. Re-running `torch.load` with `weights_only` set to `False` will likely succeed, but it can result in arbitrary code execution. Do it only if you got the file from a trusted source.
+Please file an issue with the following so that we can make `weights_only=True` compatible with your use case: WeightsUnpickler error: Unsupported operand 255
+
+Check the documentation of torch.load to learn more about types accepted by default with weights_only https://pytorch.org/docs/stable/generated/torch.load.html.. Using simple analysis.
+2025-09-02 18:56:57,130 - inference - INFO - Interview analyzer initialized

@@ -1,0 +1,351 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+python_version
+
+# poetry
+poetry.lock
+
+# pdm
+.pdm.toml
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# PyCharm
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# Eclipse
+.settings/
+.pydevproject
+.project
+.metadata
+
+# Sublime Text
+*.sublime-*
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+[Tt]humbs.db
+$RECYCLE.BIN/
+*.lnk
+
+# Project specific ignores
+# Models and weights
+models/*.pth
+models/*.pt
+models/*.bin
+models/*.onnx
+models/checkpoints/
+models/saved_models/
+
+# Training data
+data/processed/
+data/raw/
+data/temp/
+data/*.pkl
+data/*.pickle
+data/*.h5
+data/*.hdf5
+
+# Logs
+logs/
+*.log
+*.log.*
+log/
+*.logs
+
+# Output files
+output/
+results/
+analysis_results.json
+*.csv
+*.json
+*.xlsx
+
+# Streamlit
+.streamlit/
+streamlit.log
+
+# Jupyter
+*.ipynb
+
+# Large files
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.wmv
+*.flv
+*.webm
+*.mpeg
+*.mpg
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+*.temp
+
+# Config files (except example configs)
+config.yaml
+config.yml
+config.json
+settings.json
+
+# API keys and secrets
+*.key
+*.pem
+*.crt
+*.cert
+secrets.py
+credentials.json
+service_account.json
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# MacOS
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# Windows
+[Tt]humbs.db
+
+# Virtual environments
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Package files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Documentation
+_site/
+.build/
+
+# Testing
+.pytest_cache/
+.coverage
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# Large data files
+*.data
+*.index
+*.meta
+
+# TensorBoard
+events.out.tfevents.*
+
+# MLflow
+mlruns/
+
+# Weights & Biases
+wandb/
+
+# DVC
+.dvc/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# PyTorch
+*.torchsave
+
+# Hugging Face
+.cache/
+.huggingface/
+
+# Specific to this project
+# Pretrained model downloads
+*.bin
+*.h5
+*.t7
+*.pth.tar
+
+# Training checkpoints
+checkpoint*
+training_checkpoints/
+
+# Video processing temp files
+*.avi.tmp
+*.mp4.tmp
+
+# Face recognition models
+*.dat
+
+# OpenCV Haar cascades (except the default ones)
+haarcascade_*.xml
+
+# Sample data (keep only the sample files)
+!data/sample_job_description.txt
+!data/sample_interviews.csv
+!data/video_metadata.csv
+
+# Keep the sample data directory structure
+!data/
