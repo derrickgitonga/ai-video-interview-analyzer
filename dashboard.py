@@ -8,14 +8,7 @@ from inference import InterviewAnalyzer
 import tempfile
 import os
 from datetime import datetime
-
-# Page configuration
-st.set_page_config(
-    page_title="AI Video Interview Analyzer",
-    page_icon="📊",
-    layout="wide",
-    initial_sidebar_state="expanded"
-)
+from utils.visualization import create_radar_chart, create_score_comparison_chart, create_metric_bars, create_sentiment_gauge
 
 # Custom CSS
 st.markdown("""
@@ -111,35 +104,6 @@ class InterviewDashboard:
                 else:
                     st.warning("Please upload both video and transcript.")
     
-    def batch_analysis(self):
-        st.header("📊 Batch Candidate Analysis")
-        
-        uploaded_file = st.file_uploader(
-            "Upload CSV with candidate data (columns: name, video_path, transcript)",
-            type=['csv']
-        )
-        
-        job_description = st.text_area(
-            "Job Description for Batch Analysis",
-            "Enter the job description for keyword matching...",
-            height=150
-        )
-        
-        if uploaded_file and st.button("📈 Analyze Batch", use_container_width=True):
-            df = pd.read_csv(uploaded_file)
-            candidates = df.to_dict('records')
-            
-            with st.spinner(f"Analyzing {len(candidates)} candidates..."):
-                results = self.analyzer.analyze_multiple_candidates(candidates, job_description)
-                self.display_batch_results(results)
-    
-    def compare_candidates(self):
-        st.header("🔍 Compare Multiple Candidates")
-        st.info("Upload multiple candidate analyses to compare their scores.")
-        
-        # Implementation for comparison view
-        st.warning("Comparison feature coming soon!")
-    
     def display_results(self, result):
         st.success("✅ Analysis Complete!")
         
@@ -167,6 +131,32 @@ class InterviewDashboard:
                 f"{result['recommendation']}</div>",
                 unsafe_allow_html=True
             )
+        
+        # Add visualizations section
+        st.subheader("📊 Visual Analysis")
+        
+        col1, col2 = st.columns(2)
+        
+        with col1:
+            # Radar chart
+            radar_scores = [
+                result['text_analysis']['clarity_score'],
+                result['text_analysis']['keyword_score'], 
+                result['video_analysis']['engagement_score'],
+                result['video_analysis']['confidence_score'],
+                result['video_analysis']['attention_score']
+            ]
+            radar_img = create_radar_chart(radar_scores, result['candidate_name'])
+            st.image(radar_img, caption="Skills Radar Chart", use_column_width=True)
+        
+        with col2:
+            # Sentiment gauge
+            sentiment_img = create_sentiment_gauge(result['text_analysis']['sentiment'])
+            st.image(sentiment_img, caption="Sentiment Analysis", use_column_width=True)
+        
+        # Metrics bar chart
+        metrics_img = create_metric_bars(result)
+        st.image(metrics_img, caption="Detailed Metrics", use_column_width=True)
         
         # Detailed metrics
         st.subheader("📋 Detailed Analysis")
@@ -214,6 +204,28 @@ class InterviewDashboard:
             mime="application/json"
         )
     
+    def batch_analysis(self):
+        st.header("📊 Batch Candidate Analysis")
+        
+        uploaded_file = st.file_uploader(
+            "Upload CSV with candidate data (columns: name, video_path, transcript)",
+            type=['csv']
+        )
+        
+        job_description = st.text_area(
+            "Job Description for Batch Analysis",
+            "Enter the job description for keyword matching...",
+            height=150
+        )
+        
+        if uploaded_file and st.button("📈 Analyze Batch", use_container_width=True):
+            df = pd.read_csv(uploaded_file)
+            candidates = df.to_dict('records')
+            
+            with st.spinner(f"Analyzing {len(candidates)} candidates..."):
+                results = self.analyzer.analyze_multiple_candidates(candidates, job_description)
+                self.display_batch_results(results)
+    
     def display_batch_results(self, results):
         st.success(f"✅ Batch analysis complete! Analyzed {len(results)} candidates.")
         
@@ -247,10 +259,8 @@ class InterviewDashboard:
         
         with col2:
             st.subheader("🎯 Score Comparison")
-            fig, ax = plt.subplots(figsize=(10, 6))
-            df.plot(x='Candidate', y='Overall Score', kind='bar', ax=ax)
-            plt.xticks(rotation=45)
-            st.pyplot(fig)
+            comparison_img = create_score_comparison_chart(results)
+            st.image(comparison_img, caption="Candidate Comparison", use_column_width=True)
         
         # Download batch results
         csv = df.to_csv(index=False)
@@ -260,6 +270,29 @@ class InterviewDashboard:
             file_name=f"batch_analysis_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv",
             mime="text/csv"
         )
+    
+    def compare_candidates(self):
+        st.header("🔍 Compare Multiple Candidates")
+        st.info("Upload multiple candidate analyses to compare their scores.")
+        
+        # Implementation for comparison view
+        uploaded_files = st.file_uploader(
+            "Upload analysis JSON files",
+            type=['json'],
+            accept_multiple_files=True
+        )
+        
+        if uploaded_files and st.button("📊 Compare Candidates", use_container_width=True):
+            candidates = []
+            for uploaded_file in uploaded_files:
+                try:
+                    result = json.load(uploaded_file)
+                    candidates.append(result)
+                except Exception as e:
+                    st.error(f"Error loading {uploaded_file.name}: {e}")
+            
+            if candidates:
+                self.display_batch_results(candidates)
 
 def main():
     dashboard = InterviewDashboard()

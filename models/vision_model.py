@@ -27,8 +27,8 @@ class VisionInterviewAnalyzer(nn.Module):
         )
         
         # Calculate the total input dimension for classifiers
-        # ResNet features (hidden_dim) + visual features (2) = hidden_dim + 2
-        classifier_input_dim = hidden_dim + 2
+        # ResNet features (hidden_dim) + visual features (4) = hidden_dim + 4
+        classifier_input_dim = hidden_dim + 4
         
         # Classifiers
         self.engagement_classifier = nn.Sequential(
@@ -82,19 +82,28 @@ class VisionInterviewAnalyzer(nn.Module):
             # Basic face presence feature
             face_present = 1.0 if len(faces) > 0 else 0.0
             
-            # Simple face size feature (normalized)
+            # Face size feature (normalized)
             face_size = 0.0
             if len(faces) > 0:
                 # Use the largest face
                 largest_face = max(faces, key=lambda rect: rect[2] * rect[3])
                 face_size = min(1.0, (largest_face[2] * largest_face[3]) / (frame.shape[0] * frame.shape[1] * 0.1))
             
-            # Convert to tensor and return basic features
-            return torch.tensor([face_present, face_size], dtype=torch.float32)
+            # Face position (center deviation)
+            position_deviation = 0.0
+            if len(faces) > 0:
+                face_center_x = faces[0][0] + faces[0][2] / 2
+                frame_center_x = frame.shape[1] / 2
+                position_deviation = abs(face_center_x - frame_center_x) / frame.shape[1]
+            
+            # Number of faces detected
+            face_count = min(1.0, len(faces) / 3.0)  # Normalize to 0-1 range
+            
+            return torch.tensor([face_present, face_size, position_deviation, face_count], dtype=torch.float32)
             
         except Exception as e:
             logger.warning(f"Visual feature extraction failed: {e}")
-            return torch.tensor([0.0, 0.0], dtype=torch.float32)
+            return torch.tensor([0.0, 0.0, 0.5, 0.0], dtype=torch.float32)
 
     def forward(self, x):
         # x is batch of video frames: [batch_size, seq_len, C, H, W]
